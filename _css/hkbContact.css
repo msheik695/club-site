@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+header, nav, main, footer {
+  display: block;
+}
+body {
+  color: black;
+  font-family: Verdana, Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+}
+header {
+  background-color: floralwhite;
+  text-align: center;
+}
+h1 {
+  line-height: 150%;
+  margin-bottom: 0;
+  font-size: 2em;
+  padding: .2em;
+}
+h2 {
+  color: black;
+}
+p {
+  color: black;
+}
+#textwrap {
+  align-content: center;
+  text-align: center;
+}

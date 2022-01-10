@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+/*font-family: 'Libre Baskerville', serif;
+
+    font-family: 'Open Sans', sans-serif;*/
+body, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Open Sans", sans-serif;
+}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.cs-purple {
+  background-color: #4e4db3;
+  color: white;
+}
+.cs-white {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 10px;
+  font-size: 94px;
+  padding-top: 10000px;
+}
+.cs-header-black {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 10px;
+  font-size: 72px;
+  padding-top: 10000px;
+}
+.w3-jumbo {
+  font-size: 120px;
+}
+#myNavbar {
+  padding: 1em;
+}
+.w3-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+  right: 0;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+@media screen and (min-width: 1000px) {
+  .cs-half {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .centerwomen {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width:800px) {
+  .cs-half {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.homeimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  height: auto;
+  align-content: center;
+}
+.center {
+  padding-top: 50px;
+  float: left;
+  display: block;
+  width: 100%
+}
+.center2 {
+  padding-top: 50px;
+  float: left;
+  display: block;
+  width: 20%
+}
+.w3-button:hover {
+  color: #000 !important;
+  background-color: coral !important
+}
+footer {
+  background-color: #4e4db3;
+  color: white;
+}
+.cs-third {
+  padding-left: 3em;
+  padding-top:3em;
+  height:30em;
+}
