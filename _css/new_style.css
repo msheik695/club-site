@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 10px font-size */
+  font-size: 62.5%;
+}
+
+/* Utility classes */
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 300px);
+}
+.grid-6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+body {
+  font-family: "Rubik", serif;
+  line-height: 1;
+  font-weight: 300;
+  color: #000;
+  font-size: 1.5rem;
+  /* background-color: #ede6f6; */
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HEADER STYLE */
+
+.logo {
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "EB Garamond", serif;
+  color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b08a1;
+  height: 5.6rem;
+  padding: 0 4.8em;
+}
+
+.main-nav {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+}
+.main-nav .nav-list {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+span {
+  color: #a584d0;
+}
+.nav-list:hover {
+  color: #c9b5e3;
+}
+
+.banner-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 0 20px 20px;
+}
+
+.banner-content {
+  align-self: center;
+  margin: 5rem;
+  color: #000;
+}
+.text h2 {
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+}
+.text p {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+}
+.btn {
+  display: inline-block;
+  color: #000;
+  border-radius: 10rem;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  font-weight: 300;
+  box-shadow: inset 0 0 0 1px #000;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #260451;
+  box-shadow: inset 0 0 0 1px #000;
+  color: #fff;
+}
+/* about style */
+#club-about {
+  background-color: #ede6f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 7rem;
+  margin: 7rem;
+  border-radius: 20px;
+}
+.about-content {
+  font-size: 3rem;
+  font-weight: 300;
+  width: 70rem;
+}
+.about-content p {
+  margin-top: 2rem;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  letter-spacing: 1.3px;
+}
+
+/* Showcase style*/
+
+.board-showcase,
+.board-advisors {
+  background-color: #ede6f6;
+  padding: 3rem;
+  margin: 7rem;
+  border-radius: 20px;
+}
+.board-showcase {
+  margin: 0;
+  background-color: #a584d0;
+}
+.board-showcase h1,
+.board-advisors h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 3rem;
+}
+
+.board-container {
+  place-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  width: 25rem;
+  height: 30rem;
+  background-color: #3c0681;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #dbceec;
+  border-radius: 1.2rem;
+}
+.card-img {
+  margin: 1.5rem 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.card-img:hover {
+  transform: scale(1.1);
+}
+.card-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.card-major {
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
+.card-fav-quote {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+cite {
+  letter-spacing: 0.5px;
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 4rem;
+  background-color: #4b08a1;
+  padding: 4rem;
+  color: #ede6f6;
+  text-align: center;
+}
